@@ -1,0 +1,15 @@
+.background-image-container {
+  background-image: url("../public/dribblecover.png");
+  width: full;
+  background-size: 40vw;
+  background-position-x: center;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  width: 33.3vw;
+  height: full;
+  
+}
+
+/* Style the custom checkbox */
+
+/* Style the tick mark */
