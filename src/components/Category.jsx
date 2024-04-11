@@ -61,6 +61,7 @@ const Category = () => {
         }))
         dispatch(sendEmailAsync(userDetails?.data));
         navigate("/confirmation")
+        
     }
   return (
     <div>
