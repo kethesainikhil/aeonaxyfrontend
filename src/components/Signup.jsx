@@ -53,6 +53,7 @@ const Signup = () => {
         
     }
     dispatch(addUserAsync(data))
+
   };
   const handleInputChange = (ref) => {
     ref.current.classList.remove("bg-red-100");

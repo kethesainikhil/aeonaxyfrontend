@@ -2,9 +2,7 @@ import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import addUserApi, { addUserInterestsApi, sendEmailApi, uploadUserProfilePicApi } from './AddUserApi';
 
 const initialState = {
-  userDetails:{
-
-  },
+  userDetails:null,
   location:{
 
   },

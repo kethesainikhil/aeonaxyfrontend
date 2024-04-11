@@ -3,9 +3,11 @@ import Header from './Header'
 import Footer from './Footer'
 import {useSelector} from "react-redux"
 const Confirmation = () => {
-  
+
     const [navbar,setNavbar] = useState(false);
 const user = useSelector((state) => state.user.userDetails?.data)
+const location = useSelector((state)=>state.user.location)
+console.log(location)
   return (
     <div className=''>
 

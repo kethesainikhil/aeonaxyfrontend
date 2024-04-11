@@ -53,11 +53,12 @@ const Category = () => {
         setRadio3(!radioClicked3);
     }
     const handleFinish = () =>{
+       const url =  (profilePic) ? profilePic : profileColor
         dispatch(addUserInterestsAsync({
             "user":userDetails,
             "interests":userInterests,
             "location":location,
-            "profileUrl":profilePic,
+            "profileUrl":url,
         }))
         dispatch(sendEmailAsync(userDetails?.data));
         navigate("/confirmation")
